@@ -37,6 +37,7 @@ function clickOnImg(event) {
   instance.show();
   closeOnEscape(instance);
 }
+// function of close modal on escape
 function closeOnEscape(instance) {
   const instanceVisible = basicLightbox.visible();
 
